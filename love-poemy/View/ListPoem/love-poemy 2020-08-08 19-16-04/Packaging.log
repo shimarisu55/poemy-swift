@@ -1,0 +1,605 @@
+2020-08-08 10:15:51 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc409441730; archive(resolved)='<IDEArchive: 0x7fc42e288e00>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc409441730; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc4092c5720; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc4093c30c0; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc408630000; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc4256314b0; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc4092e35a0; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc423ee8980; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc423ee7c90; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc4087ebbc0; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc43d1c1010; teamID='5YR2PS8BM3', teamName='shiho nonaka', teamType='Individual', username='shiho.2480@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc4250147c0; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc4270d4e10; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc42d3c7da0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc4253cda30; archive = '<IDEArchive: 0x7fc42e288e00>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc409441730>
+2020-08-08 10:15:51 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-08-08 10:15:51 +0000  Processing step: IDEDistributionCopyItemStep
+2020-08-08 10:15:51 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app'
+2020-08-08 10:15:51 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app 
+2020-08-08 10:15:51 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  16041 bytes for ./_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./PoemListTableViewCell.nib ... 
+2020-08-08 10:15:51 +0000  6234 bytes for ./PoemListTableViewCell.nib
+2020-08-08 10:15:51 +0000  copying file ./AppIcon-260x60@2x.png ... 
+2020-08-08 10:15:51 +0000  6235 bytes for ./AppIcon-260x60@2x.png
+2020-08-08 10:15:51 +0000  copying file ./DetailTranslationTableViewCell.nib ... 
+2020-08-08 10:15:51 +0000  5483 bytes for ./DetailTranslationTableViewCell.nib
+2020-08-08 10:15:51 +0000  copying file ./Poemy ... 
+2020-08-08 10:15:51 +0000  47573280 bytes for ./Poemy
+2020-08-08 10:15:51 +0000  copying file ./DetailRemarkTableViewCell.nib ... 
+2020-08-08 10:15:51 +0000  4147 bytes for ./DetailRemarkTableViewCell.nib
+copying file ./SearchTagCollectionViewCell.nib ... 
+2020-08-08 10:15:51 +0000  3399 bytes for ./SearchTagCollectionViewCell.nib
+copying file ./GoogleService-Info.plist ... 
+2020-08-08 10:15:51 +0000  736 bytes for ./GoogleService-Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Base.lproj/Main.storyboardc/pHx-z7-42A-view-2uE-vA-XUe.nib ... 
+2020-08-08 10:15:51 +0000  7041 bytes for ./Base.lproj/Main.storyboardc/pHx-z7-42A-view-2uE-vA-XUe.nib
+2020-08-08 10:15:51 +0000  copying file ./Base.lproj/Main.storyboardc/detailView.nib ... 
+2020-08-08 10:15:51 +0000  1109 bytes for ./Base.lproj/Main.storyboardc/detailView.nib
+2020-08-08 10:15:51 +0000  copying file ./Base.lproj/Main.storyboardc/tabbar.nib ... 
+2020-08-08 10:15:51 +0000  5014 bytes for ./Base.lproj/Main.storyboardc/tabbar.nib
+2020-08-08 10:15:51 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-08-08 10:15:51 +0000  7399 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2020-08-08 10:15:51 +0000  copying file ./Base.lproj/Main.storyboardc/umX-qy-jZZ-view-d9B-Qo-FMa.nib ... 
+2020-08-08 10:15:51 +0000  3421 bytes for ./Base.lproj/Main.storyboardc/umX-qy-jZZ-view-d9B-Qo-FMa.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2020-08-08 10:15:51 +0000  207 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-08-08 10:15:51 +0000  1943 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-08-08 10:15:51 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-08-08 10:15:51 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Assets.car ... 
+2020-08-08 10:15:51 +0000  495919 bytes for ./Assets.car
+2020-08-08 10:15:51 +0000  copying file ./SearchModalViewController.nib ... 
+2020-08-08 10:15:51 +0000  6139 bytes for ./SearchModalViewController.nib
+copying file ./PoemListAdTableViewCell.nib ... 
+2020-08-08 10:15:51 +0000  2582 bytes for ./PoemListAdTableViewCell.nib
+2020-08-08 10:15:51 +0000  copying file ./DetailOriginalTextTableViewCell.nib ... 
+2020-08-08 10:15:51 +0000  4999 bytes for ./DetailOriginalTextTableViewCell.nib
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/grpcpp.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  2472 bytes for ./Frameworks/grpcpp.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/grpcpp.framework/grpcpp ... 
+2020-08-08 10:15:51 +0000  3610944 bytes for ./Frameworks/grpcpp.framework/grpcpp
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/grpcpp.framework/gRPCCertificates-Cpp.bundle/roots.pem ... 
+2020-08-08 10:15:51 +0000  284228 bytes for ./Frameworks/grpcpp.framework/gRPCCertificates-Cpp.bundle/roots.pem
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/grpcpp.framework/gRPCCertificates-Cpp.bundle/Info.plist ... 
+2020-08-08 10:15:51 +0000  740 bytes for ./Frameworks/grpcpp.framework/gRPCCertificates-Cpp.bundle/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/grpcpp.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  735 bytes for ./Frameworks/grpcpp.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  1798 bytes for ./Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher ... 
+2020-08-08 10:15:51 +0000  1317008 bytes for ./Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/GTMSessionFetcher.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  758 bytes for ./Frameworks/GTMSessionFetcher.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/FBLPromises.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  1798 bytes for ./Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/FBLPromises.framework/FBLPromises ... 
+2020-08-08 10:15:51 +0000  700464 bytes for ./Frameworks/FBLPromises.framework/FBLPromises
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/FBLPromises.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  744 bytes for ./Frameworks/FBLPromises.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  1798 bytes for ./Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/GoogleUtilities.framework/GoogleUtilities ... 
+2020-08-08 10:15:51 +0000  1037456 bytes for ./Frameworks/GoogleUtilities.framework/GoogleUtilities
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/GoogleUtilities.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  754 bytes for ./Frameworks/GoogleUtilities.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  1798 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/nanopb.framework/nanopb ... 
+2020-08-08 10:15:51 +0000  277440 bytes for ./Frameworks/nanopb.framework/nanopb
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/nanopb.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  738 bytes for ./Frameworks/nanopb.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  1798 bytes for ./Frameworks/leveldb.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/leveldb.framework/leveldb ... 
+2020-08-08 10:15:51 +0000  2473568 bytes for ./Frameworks/leveldb.framework/leveldb
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/leveldb.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  737 bytes for ./Frameworks/leveldb.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/grpc.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  1798 bytes for ./Frameworks/grpc.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/grpc.framework/grpc ... 
+2020-08-08 10:15:51 +0000  16396064 bytes for ./Frameworks/grpc.framework/grpc
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/grpc.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  731 bytes for ./Frameworks/grpc.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/openssl_grpc.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  1798 bytes for ./Frameworks/openssl_grpc.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/openssl_grpc.framework/openssl_grpc ... 
+2020-08-08 10:15:51 +0000  9051040 bytes for ./Frameworks/openssl_grpc.framework/openssl_grpc
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/openssl_grpc.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  746 bytes for ./Frameworks/openssl_grpc.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/absl.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:51 +0000  1798 bytes for ./Frameworks/absl.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/absl.framework/absl ... 
+2020-08-08 10:15:51 +0000  2514928 bytes for ./Frameworks/absl.framework/absl
+2020-08-08 10:15:51 +0000  copying file ./Frameworks/absl.framework/Info.plist ... 
+2020-08-08 10:15:51 +0000  737 bytes for ./Frameworks/absl.framework/Info.plist
+2020-08-08 10:15:51 +0000  copying file ./DetailGrammarTableViewCell.nib ... 
+2020-08-08 10:15:51 +0000  4200 bytes for ./DetailGrammarTableViewCell.nib
+2020-08-08 10:15:51 +0000  copying file ./embedded.mobileprovision ... 
+2020-08-08 10:15:51 +0000  9423 bytes for ./embedded.mobileprovision
+2020-08-08 10:15:51 +0000  copying file ./DetailWordTableViewCell.nib ... 
+2020-08-08 10:15:51 +0000  4206 bytes for ./DetailWordTableViewCell.nib
+2020-08-08 10:15:51 +0000  copying file ./DetailImageHeaderTableViewCell.nib ... 
+2020-08-08 10:15:51 +0000  2705 bytes for ./DetailImageHeaderTableViewCell.nib
+2020-08-08 10:15:51 +0000  copying file ./Info.plist ... 
+2020-08-08 10:15:51 +0000  1897 bytes for ./Info.plist
+2020-08-08 10:15:51 +0000  copying file ./PkgInfo ... 
+2020-08-08 10:15:51 +0000  8 bytes for ./PkgInfo
+2020-08-08 10:15:51 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:51 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc421217800; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7fc409294510:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4087ce680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7fc4092960c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc4227f4ce0; bundleID='org.cocoapods.GTMSessionFetcher', path='<DVTFilePath:0x7fc4092a1100:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GTMSessionFetcher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41fa48130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc42357a800; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.GTMSessionFetcher', executablePath='<DVTFilePath:0x7fc4092a2d00:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc4230722e0; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7fc4092971a0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4239580a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc40951aa60; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7fc409298240:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc42f0c7850; bundleID='org.cocoapods.absl', path='<DVTFilePath:0x7fc409293970:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/absl.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41a4e97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.absl', executablePath='<DVTFilePath:0x7fc409291f30:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/absl.framework/absl'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc4237880d0; bundleID='org.cocoapods.grpc', path='<DVTFilePath:0x7fc409299e70:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpc.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc425517f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.grpc', executablePath='<DVTFilePath:0x7fc40929b960:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpc.framework/grpc'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc4087e56d0; bundleID='org.cocoapods.grpcpp', path='<DVTFilePath:0x7fc40929c940:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpcpp.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4231785a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.grpcpp', executablePath='<DVTFilePath:0x7fc40929fda0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpcpp.framework/grpcpp'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc425008240; bundleID='org.cocoapods.leveldb', path='<DVTFilePath:0x7fc4092a3dc0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/leveldb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc423dfb890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.leveldb', executablePath='<DVTFilePath:0x7fc4092a5ff0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/leveldb.framework/leveldb'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc434fe3d10; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7fc4092a6970:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41f668560; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc40951aa60; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7fc4092a8b30:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc4087f7bb0; bundleID='org.cocoapods.openssl-grpc', path='<DVTFilePath:0x7fc4092a94c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/openssl_grpc.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4234ddae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.openssl-grpc', executablePath='<DVTFilePath:0x7fc4093722c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/openssl_grpc.framework/openssl_grpc'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:51 +0000  Processing step: IDEDistributionItemRemovalStep
+2020-08-08 10:15:51 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-08-08 10:15:51 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-08-08 10:15:51 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-08-08 10:15:51 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-08-08 10:15:51 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-08-08 10:15:52 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/5926A44B-419A-31BF-BCD9-556FB8C42781.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/5926A44B-419A-31BF-BCD9-556FB8C42781.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/5926A44B-419A-31BF-BCD9-556FB8C42781.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./5926A44B-419A-31BF-BCD9-556FB8C42781.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  43956 bytes for ./5926A44B-419A-31BF-BCD9-556FB8C42781.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/A001EA06-90FD-3005-B8BE-7C99AD4A8158.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/A001EA06-90FD-3005-B8BE-7C99AD4A8158.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/A001EA06-90FD-3005-B8BE-7C99AD4A8158.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./A001EA06-90FD-3005-B8BE-7C99AD4A8158.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  63036 bytes for ./A001EA06-90FD-3005-B8BE-7C99AD4A8158.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/A13D656B-36C4-3635-B738-0D1A74C7655E.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/A13D656B-36C4-3635-B738-0D1A74C7655E.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/A13D656B-36C4-3635-B738-0D1A74C7655E.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./A13D656B-36C4-3635-B738-0D1A74C7655E.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  41246 bytes for ./A13D656B-36C4-3635-B738-0D1A74C7655E.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/0C64B7AC-8EF3-38F9-8481-541E6F1272B0.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/0C64B7AC-8EF3-38F9-8481-541E6F1272B0.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/0C64B7AC-8EF3-38F9-8481-541E6F1272B0.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./0C64B7AC-8EF3-38F9-8481-541E6F1272B0.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  130524 bytes for ./0C64B7AC-8EF3-38F9-8481-541E6F1272B0.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/ABC53B6C-C7F2-3D1F-89DD-35BE0F793BC7.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/ABC53B6C-C7F2-3D1F-89DD-35BE0F793BC7.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/ABC53B6C-C7F2-3D1F-89DD-35BE0F793BC7.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./ABC53B6C-C7F2-3D1F-89DD-35BE0F793BC7.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  770259 bytes for ./ABC53B6C-C7F2-3D1F-89DD-35BE0F793BC7.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/4C16F952-6353-3ADB-8374-ECCE1CCAA570.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/4C16F952-6353-3ADB-8374-ECCE1CCAA570.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/4C16F952-6353-3ADB-8374-ECCE1CCAA570.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./4C16F952-6353-3ADB-8374-ECCE1CCAA570.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  275216 bytes for ./4C16F952-6353-3ADB-8374-ECCE1CCAA570.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/55255BB5-9111-3E2F-A881-79D156714CB7.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/55255BB5-9111-3E2F-A881-79D156714CB7.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/55255BB5-9111-3E2F-A881-79D156714CB7.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./55255BB5-9111-3E2F-A881-79D156714CB7.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  88462 bytes for ./55255BB5-9111-3E2F-A881-79D156714CB7.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/0517A462-D7DF-3720-805B-21688DC2C4CF.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/0517A462-D7DF-3720-805B-21688DC2C4CF.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/0517A462-D7DF-3720-805B-21688DC2C4CF.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./0517A462-D7DF-3720-805B-21688DC2C4CF.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  11970 bytes for ./0517A462-D7DF-3720-805B-21688DC2C4CF.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/E8555101-523C-39FF-9766-ED011FEB3DE3.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/E8555101-523C-39FF-9766-ED011FEB3DE3.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/E8555101-523C-39FF-9766-ED011FEB3DE3.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./E8555101-523C-39FF-9766-ED011FEB3DE3.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  281372 bytes for ./E8555101-523C-39FF-9766-ED011FEB3DE3.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Running /usr/bin/ditto '-V' '/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/C9D62F1C-2104-3F45-BB2A-1ACAC9CF9F2F.bcsymbolmap' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/BCSymbolMaps/C9D62F1C-2104-3F45-BB2A-1ACAC9CF9F2F.bcsymbolmap'
+2020-08-08 10:15:52 +0000  >>> Copying /Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/BCSymbolMaps/C9D62F1C-2104-3F45-BB2A-1ACAC9CF9F2F.bcsymbolmap 
+2020-08-08 10:15:52 +0000  copying file ./C9D62F1C-2104-3F45-BB2A-1ACAC9CF9F2F.bcsymbolmap ... 
+2020-08-08 10:15:52 +0000  2795649 bytes for ./C9D62F1C-2104-3F45-BB2A-1ACAC9CF9F2F.bcsymbolmap
+2020-08-08 10:15:52 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:52 +0000  Processing step: IDEDistributionSymbolsStep
+2020-08-08 10:15:52 +0000  Excluding symbols for FBLPromises.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for GTMSessionFetcher.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for GoogleUtilities.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for absl.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for grpc.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for grpcpp.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for leveldb.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for nanopb.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for openssl_grpc.framework
+2020-08-08 10:15:52 +0000  Excluding symbols for Poemy.app
+2020-08-08 10:15:52 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2020-08-08 10:15:52 +0000  Processing step: IDEDistributionAppThinningStep
+2020-08-08 10:15:52 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-08-08 10:15:52 +0000  Processing step: IDEDistributionArchThinningStep
+2020-08-08 10:15:52 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/FBLPromises.framework/FBLPromises' '-verify_arch' 'arm64e'
+2020-08-08 10:15:52 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:52 +0000  Skipping architecture thinning for item "FBLPromises" because arch "arm64e" wasn't found
+2020-08-08 10:15:52 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher' '-verify_arch' 'arm64e'
+2020-08-08 10:15:52 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:52 +0000  Skipping architecture thinning for item "GTMSessionFetcher" because arch "arm64e" wasn't found
+2020-08-08 10:15:52 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/GoogleUtilities.framework/GoogleUtilities' '-verify_arch' 'arm64e'
+2020-08-08 10:15:52 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:52 +0000  Skipping architecture thinning for item "GoogleUtilities" because arch "arm64e" wasn't found
+2020-08-08 10:15:52 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/absl.framework/absl' '-verify_arch' 'arm64e'
+2020-08-08 10:15:52 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:52 +0000  Skipping architecture thinning for item "absl" because arch "arm64e" wasn't found
+2020-08-08 10:15:52 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/grpc.framework/grpc' '-verify_arch' 'arm64e'
+2020-08-08 10:15:52 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:52 +0000  Skipping architecture thinning for item "grpc" because arch "arm64e" wasn't found
+2020-08-08 10:15:53 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/grpcpp.framework/grpcpp' '-verify_arch' 'arm64e'
+2020-08-08 10:15:53 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:53 +0000  Skipping architecture thinning for item "grpcpp" because arch "arm64e" wasn't found
+2020-08-08 10:15:53 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/leveldb.framework/leveldb' '-verify_arch' 'arm64e'
+2020-08-08 10:15:53 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:53 +0000  Skipping architecture thinning for item "leveldb" because arch "arm64e" wasn't found
+2020-08-08 10:15:53 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/nanopb.framework/nanopb' '-verify_arch' 'arm64e'
+2020-08-08 10:15:53 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:53 +0000  Skipping architecture thinning for item "nanopb" because arch "arm64e" wasn't found
+2020-08-08 10:15:53 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/openssl_grpc.framework/openssl_grpc' '-verify_arch' 'arm64e'
+2020-08-08 10:15:53 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:53 +0000  Skipping architecture thinning for item "openssl_grpc" because arch "arm64e" wasn't found
+2020-08-08 10:15:53 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Poemy' '-verify_arch' 'arm64e'
+2020-08-08 10:15:53 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-08-08 10:15:53 +0000  Skipping architecture thinning for item "Poemy" because arch "arm64e" wasn't found
+2020-08-08 10:15:53 +0000  Processing step: IDEDistributionODRStep
+2020-08-08 10:15:53 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc421217800; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7fc409294510:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4087ce680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7fc4092960c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc4227f4ce0; bundleID='org.cocoapods.GTMSessionFetcher', path='<DVTFilePath:0x7fc4092a1100:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GTMSessionFetcher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41fa48130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.GTMSessionFetcher', executablePath='<DVTFilePath:0x7fc4092a2d00:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc4230722e0; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7fc4092971a0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4239580a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7fc409298240:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc42f0c7850; bundleID='org.cocoapods.absl', path='<DVTFilePath:0x7fc409293970:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/absl.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41a4e97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.absl', executablePath='<DVTFilePath:0x7fc409291f30:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/absl.framework/absl'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc4237880d0; bundleID='org.cocoapods.grpc', path='<DVTFilePath:0x7fc409299e70:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpc.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc425517f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.grpc', executablePath='<DVTFilePath:0x7fc40929b960:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpc.framework/grpc'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc4087e56d0; bundleID='org.cocoapods.grpcpp', path='<DVTFilePath:0x7fc40929c940:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpcpp.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4231785a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.grpcpp', executablePath='<DVTFilePath:0x7fc40929fda0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpcpp.framework/grpcpp'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc425008240; bundleID='org.cocoapods.leveldb', path='<DVTFilePath:0x7fc4092a3dc0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/leveldb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc423dfb890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.leveldb', executablePath='<DVTFilePath:0x7fc4092a5ff0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/leveldb.framework/leveldb'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc434fe3d10; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7fc4092a6970:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41f668560; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7fc4092a8b30:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc4087f7bb0; bundleID='org.cocoapods.openssl-grpc', path='<DVTFilePath:0x7fc4092a94c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/openssl_grpc.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4234ddae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc4085f7d60; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.openssl-grpc', executablePath='<DVTFilePath:0x7fc4093722c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/openssl_grpc.framework/openssl_grpc'>', hardenedRuntime='0'>'>
+2020-08-08 10:15:53 +0000  Running /usr/bin/xattr '-crs' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app'
+2020-08-08 10:15:53 +0000  /usr/bin/xattr exited with 0
+2020-08-08 10:15:53 +0000  Processing step: IDEDistributionCodesignStep
+2020-08-08 10:15:53 +0000  Entitlements for <IDEDistributionItem: 0x7fc421217800; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7fc409294510:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4087ce680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7fc4092960c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc421217800; bundleID='org.cocoapods.FBLPromises', path='<DVTFilePath:0x7fc409294510:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/FBLPromises.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4087ce680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc408657190; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.FBLPromises', executablePath='<DVTFilePath:0x7fc4092960c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/FBLPromises.framework/FBLPromises'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~CwFN3V
+2020-08-08 10:15:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~CwFN3V' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/FBLPromises.framework'
+2020-08-08 10:15:53 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/FBLPromises.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.FBLPromises]
+2020-08-08 10:15:53 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:53 +0000  Entitlements for <IDEDistributionItem: 0x7fc4227f4ce0; bundleID='org.cocoapods.GTMSessionFetcher', path='<DVTFilePath:0x7fc4092a1100:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GTMSessionFetcher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41fa48130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.GTMSessionFetcher', executablePath='<DVTFilePath:0x7fc4092a2d00:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc4227f4ce0; bundleID='org.cocoapods.GTMSessionFetcher', path='<DVTFilePath:0x7fc4092a1100:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GTMSessionFetcher.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41fa48130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc4085f8680; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.GTMSessionFetcher', executablePath='<DVTFilePath:0x7fc4092a2d00:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~joAblf
+2020-08-08 10:15:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~joAblf' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework'
+2020-08-08 10:15:53 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GTMSessionFetcher]
+2020-08-08 10:15:53 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:53 +0000  Entitlements for <IDEDistributionItem: 0x7fc4230722e0; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7fc4092971a0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4239580a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7fc409298240:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc4230722e0; bundleID='org.cocoapods.GoogleUtilities', path='<DVTFilePath:0x7fc4092971a0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GoogleUtilities.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4239580a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc40953eb50; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.GoogleUtilities', executablePath='<DVTFilePath:0x7fc409298240:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/GoogleUtilities.framework/GoogleUtilities'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~fMTXOV
+2020-08-08 10:15:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~fMTXOV' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/GoogleUtilities.framework'
+2020-08-08 10:15:54 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/GoogleUtilities.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleUtilities]
+2020-08-08 10:15:54 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc42f0c7850; bundleID='org.cocoapods.absl', path='<DVTFilePath:0x7fc409293970:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/absl.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41a4e97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.absl', executablePath='<DVTFilePath:0x7fc409291f30:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/absl.framework/absl'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc42f0c7850; bundleID='org.cocoapods.absl', path='<DVTFilePath:0x7fc409293970:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/absl.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41a4e97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc423eebcf0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.absl', executablePath='<DVTFilePath:0x7fc409291f30:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/absl.framework/absl'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~InjZIO
+2020-08-08 10:15:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~InjZIO' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/absl.framework'
+2020-08-08 10:15:54 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/absl.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.absl]
+2020-08-08 10:15:54 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc4237880d0; bundleID='org.cocoapods.grpc', path='<DVTFilePath:0x7fc409299e70:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpc.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc425517f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.grpc', executablePath='<DVTFilePath:0x7fc40929b960:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpc.framework/grpc'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc4237880d0; bundleID='org.cocoapods.grpc', path='<DVTFilePath:0x7fc409299e70:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpc.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc425517f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc40953eb50; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.grpc', executablePath='<DVTFilePath:0x7fc40929b960:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpc.framework/grpc'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~r2IJXl
+2020-08-08 10:15:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~r2IJXl' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/grpc.framework'
+2020-08-08 10:15:54 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/grpc.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.grpc]
+2020-08-08 10:15:54 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc4087e56d0; bundleID='org.cocoapods.grpcpp', path='<DVTFilePath:0x7fc40929c940:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpcpp.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4231785a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.grpcpp', executablePath='<DVTFilePath:0x7fc40929fda0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpcpp.framework/grpcpp'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc4087e56d0; bundleID='org.cocoapods.grpcpp', path='<DVTFilePath:0x7fc40929c940:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpcpp.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4231785a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc40953eb50; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.grpcpp', executablePath='<DVTFilePath:0x7fc40929fda0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/grpcpp.framework/grpcpp'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~587DfY
+2020-08-08 10:15:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~587DfY' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/grpcpp.framework'
+2020-08-08 10:15:54 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/grpcpp.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.grpcpp]
+2020-08-08 10:15:54 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc425008240; bundleID='org.cocoapods.leveldb', path='<DVTFilePath:0x7fc4092a3dc0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/leveldb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc423dfb890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc408657190; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.leveldb', executablePath='<DVTFilePath:0x7fc4092a5ff0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/leveldb.framework/leveldb'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc425008240; bundleID='org.cocoapods.leveldb', path='<DVTFilePath:0x7fc4092a3dc0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/leveldb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc423dfb890; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc42da588c0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.leveldb', executablePath='<DVTFilePath:0x7fc4092a5ff0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/leveldb.framework/leveldb'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~6IW11q
+2020-08-08 10:15:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~6IW11q' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/leveldb.framework'
+2020-08-08 10:15:54 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/leveldb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.leveldb]
+2020-08-08 10:15:54 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc434fe3d10; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7fc4092a6970:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41f668560; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc409116e90; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7fc4092a8b30:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc434fe3d10; bundleID='org.cocoapods.nanopb', path='<DVTFilePath:0x7fc4092a6970:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/nanopb.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc41f668560; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc4092c6cd0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.nanopb', executablePath='<DVTFilePath:0x7fc4092a8b30:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/nanopb.framework/nanopb'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~qlWAtL
+2020-08-08 10:15:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~qlWAtL' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/nanopb.framework'
+2020-08-08 10:15:54 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.nanopb]
+2020-08-08 10:15:54 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:54 +0000  Entitlements for <IDEDistributionItem: 0x7fc4087f7bb0; bundleID='org.cocoapods.openssl-grpc', path='<DVTFilePath:0x7fc4092a94c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/openssl_grpc.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4234ddae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc4092c6cd0; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.openssl-grpc', executablePath='<DVTFilePath:0x7fc4093722c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/openssl_grpc.framework/openssl_grpc'>', hardenedRuntime='0'>'>: {
+}
+2020-08-08 10:15:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc4087f7bb0; bundleID='org.cocoapods.openssl-grpc', path='<DVTFilePath:0x7fc4092a94c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/openssl_grpc.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc4234ddae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc40953eb50; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='(null)', teamID='5YR2PS8BM3', identifier='org.cocoapods.openssl-grpc', executablePath='<DVTFilePath:0x7fc4093722c0:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Frameworks/openssl_grpc.framework/openssl_grpc'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~mCjVwK
+2020-08-08 10:15:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~mCjVwK' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/openssl_grpc.framework'
+2020-08-08 10:15:55 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app/Frameworks/openssl_grpc.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.openssl-grpc]
+2020-08-08 10:15:55 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:55 +0000  Entitlements for <IDEDistributionItem: 0x7fc421a04d70; bundleID='com.education.love-poemy', path='<DVTFilePath:0x7fc409282e20:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc42f096350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc408657190; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='{
+    "application-identifier" = "5YR2PS8BM3.com.education.love-poemy";
+    "com.apple.developer.associated-domains" =     (
+        "applinks:lovepoemy.page.link"
+    );
+    "com.apple.developer.team-identifier" = 5YR2PS8BM3;
+    "get-task-allow" = 1;
+}', teamID='5YR2PS8BM3', identifier='com.education.love-poemy', executablePath='<DVTFilePath:0x7fc4092b2d50:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Poemy'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "5YR2PS8BM3.com.education.love-poemy";
+    "beta-reports-active" = 1;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:lovepoemy.page.link"
+    );
+    "com.apple.developer.team-identifier" = 5YR2PS8BM3;
+    "get-task-allow" = 0;
+}
+2020-08-08 10:15:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc421a04d70; bundleID='com.education.love-poemy', path='<DVTFilePath:0x7fc409282e20:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc42f096350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc437591b30; name='Apple Development: shiho.2480@gmail.com (4WKRRC8G5A)', hash='7309C1AC1D5EA94C5A01BFD0AD9B8E89CCCD8A1A', serialNumber='7BD5EE893C5FAF0D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-12 12:15:48 +0000''>', entitlements='{
+    "application-identifier" = "5YR2PS8BM3.com.education.love-poemy";
+    "com.apple.developer.associated-domains" =     (
+        "applinks:lovepoemy.page.link"
+    );
+    "com.apple.developer.team-identifier" = 5YR2PS8BM3;
+    "get-task-allow" = 1;
+}', teamID='5YR2PS8BM3', identifier='com.education.love-poemy', executablePath='<DVTFilePath:0x7fc4092b2d50:'/Users/nonakashiho/Library/Developer/Xcode/Archives/2020-08-08/love-poemy 2020-08-08 19.12.xcarchive/Products/Applications/Poemy.app/Poemy'>', hardenedRuntime='0'>'> to: /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~eRi4Sl
+2020-08-08 10:15:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DEAF93D0D4B405497A44C19C5A48391B617C559D' '--entitlements' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/entitlements~~~eRi4Sl' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app'
+2020-08-08 10:15:56 +0000  /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root/Payload/Poemy.app: signed app bundle with Mach-O thin (arm64) [com.education.love-poemy]
+2020-08-08 10:15:56 +0000  /usr/bin/codesign exited with 0
+2020-08-08 10:15:56 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-08-08 10:15:56 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-08-08 10:15:56 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root' '/var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Packages/love-poemy.ipa'
+2020-08-08 10:15:56 +0000  >>> Copying /var/folders/qn/j8pd2chj2ml_m16j35g52hfc0000gn/T/XcodeDistPipeline.~~~j38jPH/Root 
+2020-08-08 10:15:56 +0000  copying file ./BCSymbolMaps/A13D656B-36C4-3635-B738-0D1A74C7655E.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  41246 bytes for ./BCSymbolMaps/A13D656B-36C4-3635-B738-0D1A74C7655E.bcsymbolmap
+copying file ./BCSymbolMaps/4C16F952-6353-3ADB-8374-ECCE1CCAA570.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  275216 bytes for ./BCSymbolMaps/4C16F952-6353-3ADB-8374-ECCE1CCAA570.bcsymbolmap
+copying file ./BCSymbolMaps/E8555101-523C-39FF-9766-ED011FEB3DE3.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  281372 bytes for ./BCSymbolMaps/E8555101-523C-39FF-9766-ED011FEB3DE3.bcsymbolmap
+copying file ./BCSymbolMaps/55255BB5-9111-3E2F-A881-79D156714CB7.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  88462 bytes for ./BCSymbolMaps/55255BB5-9111-3E2F-A881-79D156714CB7.bcsymbolmap
+copying file ./BCSymbolMaps/C9D62F1C-2104-3F45-BB2A-1ACAC9CF9F2F.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  2795649 bytes for ./BCSymbolMaps/C9D62F1C-2104-3F45-BB2A-1ACAC9CF9F2F.bcsymbolmap
+copying file ./BCSymbolMaps/5926A44B-419A-31BF-BCD9-556FB8C42781.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  43956 bytes for ./BCSymbolMaps/5926A44B-419A-31BF-BCD9-556FB8C42781.bcsymbolmap
+copying file ./BCSymbolMaps/0517A462-D7DF-3720-805B-21688DC2C4CF.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  11970 bytes for ./BCSymbolMaps/0517A462-D7DF-3720-805B-21688DC2C4CF.bcsymbolmap
+2020-08-08 10:15:56 +0000  copying file ./BCSymbolMaps/0C64B7AC-8EF3-38F9-8481-541E6F1272B0.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  130524 bytes for ./BCSymbolMaps/0C64B7AC-8EF3-38F9-8481-541E6F1272B0.bcsymbolmap
+copying file ./BCSymbolMaps/ABC53B6C-C7F2-3D1F-89DD-35BE0F793BC7.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  770259 bytes for ./BCSymbolMaps/ABC53B6C-C7F2-3D1F-89DD-35BE0F793BC7.bcsymbolmap
+copying file ./BCSymbolMaps/A001EA06-90FD-3005-B8BE-7C99AD4A8158.bcsymbolmap ... 
+2020-08-08 10:15:56 +0000  63036 bytes for ./BCSymbolMaps/A001EA06-90FD-3005-B8BE-7C99AD4A8158.bcsymbolmap
+2020-08-08 10:15:56 +0000  copying file ./Payload/Poemy.app/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:56 +0000  16041 bytes for ./Payload/Poemy.app/_CodeSignature/CodeResources
+copying file ./Payload/Poemy.app/PoemListTableViewCell.nib ... 
+2020-08-08 10:15:56 +0000  6234 bytes for ./Payload/Poemy.app/PoemListTableViewCell.nib
+2020-08-08 10:15:56 +0000  copying file ./Payload/Poemy.app/AppIcon-260x60@2x.png ... 
+2020-08-08 10:15:56 +0000  6235 bytes for ./Payload/Poemy.app/AppIcon-260x60@2x.png
+2020-08-08 10:15:56 +0000  copying file ./Payload/Poemy.app/DetailTranslationTableViewCell.nib ... 
+2020-08-08 10:15:56 +0000  5483 bytes for ./Payload/Poemy.app/DetailTranslationTableViewCell.nib
+copying file ./Payload/Poemy.app/Poemy ... 
+2020-08-08 10:15:58 +0000  41523296 bytes for ./Payload/Poemy.app/Poemy
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/DetailRemarkTableViewCell.nib ... 
+4147 bytes for ./Payload/Poemy.app/DetailRemarkTableViewCell.nib
+copying file ./Payload/Poemy.app/SearchTagCollectionViewCell.nib ... 
+3399 bytes for ./Payload/Poemy.app/SearchTagCollectionViewCell.nib
+copying file ./Payload/Poemy.app/GoogleService-Info.plist ... 
+736 bytes for ./Payload/Poemy.app/GoogleService-Info.plist
+copying file ./Payload/Poemy.app/Base.lproj/Main.storyboardc/pHx-z7-42A-view-2uE-vA-XUe.nib ... 
+7041 bytes for ./Payload/Poemy.app/Base.lproj/Main.storyboardc/pHx-z7-42A-view-2uE-vA-XUe.nib
+copying file ./Payload/Poemy.app/Base.lproj/Main.storyboardc/detailView.nib ... 
+1109 bytes for ./Payload/Poemy.app/Base.lproj/Main.storyboardc/detailView.nib
+copying file ./Payload/Poemy.app/Base.lproj/Main.storyboardc/tabbar.nib ... 
+5014 bytes for ./Payload/Poemy.app/Base.lproj/Main.storyboardc/tabbar.nib
+copying file ./Payload/Poemy.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+7399 bytes for ./Payload/Poemy.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Poemy.app/Base.lproj/Main.storyboardc/umX-qy-jZZ-view-d9B-Qo-FMa.nib ... 
+3421 bytes for ./Payload/Poemy.app/Base.lproj/Main.storyboardc/umX-qy-jZZ-view-d9B-Qo-FMa.nib
+copying file ./Payload/Poemy.app/Base.lproj/Main.storyboardc/Info.plist ... 
+207 bytes for ./Payload/Poemy.app/Base.lproj/Main.storyboardc/Info.plist
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1943 bytes for ./Payload/Poemy.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Poemy.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+896 bytes for ./Payload/Poemy.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Poemy.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Poemy.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Poemy.app/Assets.car ... 
+2020-08-08 10:15:58 +0000  495919 bytes for ./Payload/Poemy.app/Assets.car
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/SearchModalViewController.nib ... 
+2020-08-08 10:15:58 +0000  6139 bytes for ./Payload/Poemy.app/SearchModalViewController.nib
+copying file ./Payload/Poemy.app/PoemListAdTableViewCell.nib ... 
+2020-08-08 10:15:58 +0000  2582 bytes for ./Payload/Poemy.app/PoemListAdTableViewCell.nib
+copying file ./Payload/Poemy.app/DetailOriginalTextTableViewCell.nib ... 
+2020-08-08 10:15:58 +0000  4999 bytes for ./Payload/Poemy.app/DetailOriginalTextTableViewCell.nib
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Frameworks/grpcpp.framework/_CodeSignature/CodeResources ... 
+2472 bytes for ./Payload/Poemy.app/Frameworks/grpcpp.framework/_CodeSignature/CodeResources
+copying file ./Payload/Poemy.app/Frameworks/grpcpp.framework/grpcpp ... 
+2020-08-08 10:15:58 +0000  2663728 bytes for ./Payload/Poemy.app/Frameworks/grpcpp.framework/grpcpp
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Frameworks/grpcpp.framework/gRPCCertificates-Cpp.bundle/roots.pem ... 
+2020-08-08 10:15:58 +0000  284228 bytes for ./Payload/Poemy.app/Frameworks/grpcpp.framework/gRPCCertificates-Cpp.bundle/roots.pem
+copying file ./Payload/Poemy.app/Frameworks/grpcpp.framework/gRPCCertificates-Cpp.bundle/Info.plist ... 
+2020-08-08 10:15:58 +0000  740 bytes for ./Payload/Poemy.app/Frameworks/grpcpp.framework/gRPCCertificates-Cpp.bundle/Info.plist
+copying file ./Payload/Poemy.app/Frameworks/grpcpp.framework/Info.plist ... 
+735 bytes for ./Payload/Poemy.app/Frameworks/grpcpp.framework/Info.plist
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources
+copying file ./Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher ... 
+2020-08-08 10:15:58 +0000  936560 bytes for ./Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+copying file ./Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework/Info.plist ... 
+2020-08-08 10:15:58 +0000  758 bytes for ./Payload/Poemy.app/Frameworks/GTMSessionFetcher.framework/Info.plist
+copying file ./Payload/Poemy.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Poemy.app/Frameworks/FBLPromises.framework/_CodeSignature/CodeResources
+copying file ./Payload/Poemy.app/Frameworks/FBLPromises.framework/FBLPromises ... 
+2020-08-08 10:15:58 +0000  530272 bytes for ./Payload/Poemy.app/Frameworks/FBLPromises.framework/FBLPromises
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Frameworks/FBLPromises.framework/Info.plist ... 
+744 bytes for ./Payload/Poemy.app/Frameworks/FBLPromises.framework/Info.plist
+copying file ./Payload/Poemy.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:58 +0000  1798 bytes for ./Payload/Poemy.app/Frameworks/GoogleUtilities.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Frameworks/GoogleUtilities.framework/GoogleUtilities ... 
+2020-08-08 10:15:58 +0000  782544 bytes for ./Payload/Poemy.app/Frameworks/GoogleUtilities.framework/GoogleUtilities
+copying file ./Payload/Poemy.app/Frameworks/GoogleUtilities.framework/Info.plist ... 
+2020-08-08 10:15:58 +0000  754 bytes for ./Payload/Poemy.app/Frameworks/GoogleUtilities.framework/Info.plist
+copying file ./Payload/Poemy.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:58 +0000  1798 bytes for ./Payload/Poemy.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Payload/Poemy.app/Frameworks/nanopb.framework/nanopb ... 
+2020-08-08 10:15:58 +0000  213632 bytes for ./Payload/Poemy.app/Frameworks/nanopb.framework/nanopb
+copying file ./Payload/Poemy.app/Frameworks/nanopb.framework/Info.plist ... 
+2020-08-08 10:15:58 +0000  738 bytes for ./Payload/Poemy.app/Frameworks/nanopb.framework/Info.plist
+copying file ./Payload/Poemy.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:58 +0000  1798 bytes for ./Payload/Poemy.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources
+copying file ./Payload/Poemy.app/Frameworks/leveldb.framework/leveldb ... 
+2020-08-08 10:15:58 +0000  1944128 bytes for ./Payload/Poemy.app/Frameworks/leveldb.framework/leveldb
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Frameworks/leveldb.framework/Info.plist ... 
+737 bytes for ./Payload/Poemy.app/Frameworks/leveldb.framework/Info.plist
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Frameworks/grpc.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Poemy.app/Frameworks/grpc.framework/_CodeSignature/CodeResources
+2020-08-08 10:15:58 +0000  copying file ./Payload/Poemy.app/Frameworks/grpc.framework/grpc ... 
+2020-08-08 10:15:59 +0000  12771712 bytes for ./Payload/Poemy.app/Frameworks/grpc.framework/grpc
+copying file ./Payload/Poemy.app/Frameworks/grpc.framework/Info.plist ... 
+2020-08-08 10:15:59 +0000  731 bytes for ./Payload/Poemy.app/Frameworks/grpc.framework/Info.plist
+copying file ./Payload/Poemy.app/Frameworks/openssl_grpc.framework/_CodeSignature/CodeResources ... 
+2020-08-08 10:15:59 +0000  1798 bytes for ./Payload/Poemy.app/Frameworks/openssl_grpc.framework/_CodeSignature/CodeResources
+copying file ./Payload/Poemy.app/Frameworks/openssl_grpc.framework/openssl_grpc ... 
+2020-08-08 10:15:59 +0000  6940976 bytes for ./Payload/Poemy.app/Frameworks/openssl_grpc.framework/openssl_grpc
+copying file ./Payload/Poemy.app/Frameworks/openssl_grpc.framework/Info.plist ... 
+746 bytes for ./Payload/Poemy.app/Frameworks/openssl_grpc.framework/Info.plist
+copying file ./Payload/Poemy.app/Frameworks/absl.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Poemy.app/Frameworks/absl.framework/_CodeSignature/CodeResources
+copying file ./Payload/Poemy.app/Frameworks/absl.framework/absl ... 
+2020-08-08 10:15:59 +0000  1876640 bytes for ./Payload/Poemy.app/Frameworks/absl.framework/absl
+copying file ./Payload/Poemy.app/Frameworks/absl.framework/Info.plist ... 
+2020-08-08 10:15:59 +0000  737 bytes for ./Payload/Poemy.app/Frameworks/absl.framework/Info.plist
+copying file ./Payload/Poemy.app/DetailGrammarTableViewCell.nib ... 
+2020-08-08 10:15:59 +0000  4200 bytes for ./Payload/Poemy.app/DetailGrammarTableViewCell.nib
+2020-08-08 10:15:59 +0000  copying file ./Payload/Poemy.app/embedded.mobileprovision ... 
+2020-08-08 10:15:59 +0000  7348 bytes for ./Payload/Poemy.app/embedded.mobileprovision
+copying file ./Payload/Poemy.app/DetailWordTableViewCell.nib ... 
+2020-08-08 10:15:59 +0000  4206 bytes for ./Payload/Poemy.app/DetailWordTableViewCell.nib
+copying file ./Payload/Poemy.app/DetailImageHeaderTableViewCell.nib ... 
+2705 bytes for ./Payload/Poemy.app/DetailImageHeaderTableViewCell.nib
+copying file ./Payload/Poemy.app/Info.plist ... 
+2020-08-08 10:15:59 +0000  1897 bytes for ./Payload/Poemy.app/Info.plist
+copying file ./Payload/Poemy.app/PkgInfo ... 
+8 bytes for ./Payload/Poemy.app/PkgInfo
+2020-08-08 10:15:59 +0000  /usr/bin/ditto exited with 0
+2020-08-08 10:15:59 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-08-08 10:15:59 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-08-08 10:15:59 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-08-08 10:15:59 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-08-08 10:15:59 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

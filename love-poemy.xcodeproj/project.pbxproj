@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34008258247A404000B4984B /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34008257247A404000B4984B /* UIImageView+Cache.swift */; };
+		340D268B24613CF100A878FD /* SearchTagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340D268924613CF100A878FD /* SearchTagCollectionViewCell.swift */; };
+		340D268C24613CF100A878FD /* SearchTagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340D268A24613CF100A878FD /* SearchTagCollectionViewCell.xib */; };
+		341EEE5024595FF50077714D /* BookmarkManageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EEE4F24595FF50077714D /* BookmarkManageModel.swift */; };
+		341EEE5424599A6C0077714D /* ExAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EEE5324599A6C0077714D /* ExAlertViewController.swift */; };
+		341EEE572459B0570077714D /* DetailImageHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EEE552459B0570077714D /* DetailImageHeaderTableViewCell.swift */; };
+		341EEE582459B0570077714D /* DetailImageHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341EEE562459B0570077714D /* DetailImageHeaderTableViewCell.xib */; };
+		341EEE5B2459B1D90077714D /* DetailOriginalTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EEE592459B1D90077714D /* DetailOriginalTextTableViewCell.swift */; };
+		341EEE5C2459B1D90077714D /* DetailOriginalTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341EEE5A2459B1D90077714D /* DetailOriginalTextTableViewCell.xib */; };
+		341EEE5F2459B2060077714D /* DetailTranslationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EEE5D2459B2060077714D /* DetailTranslationTableViewCell.swift */; };
+		341EEE602459B2060077714D /* DetailTranslationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341EEE5E2459B2060077714D /* DetailTranslationTableViewCell.xib */; };
+		341EEE632459B22D0077714D /* DetailRemarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EEE612459B22D0077714D /* DetailRemarkTableViewCell.swift */; };
+		341EEE642459B22D0077714D /* DetailRemarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341EEE622459B22D0077714D /* DetailRemarkTableViewCell.xib */; };
+		341EEE672459B2E90077714D /* DetailGrammarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EEE652459B2E90077714D /* DetailGrammarTableViewCell.swift */; };
+		341EEE682459B2E90077714D /* DetailGrammarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341EEE662459B2E90077714D /* DetailGrammarTableViewCell.xib */; };
+		3423E40B24AA271E007D5F23 /* UIView+DashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423E40924AA271E007D5F23 /* UIView+DashView.swift */; };
+		343E5253247D457E002FAD8D /* DetailWordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E5251247D457E002FAD8D /* DetailWordTableViewCell.swift */; };
+		343E5254247D457E002FAD8D /* DetailWordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343E5252247D457E002FAD8D /* DetailWordTableViewCell.xib */; };
+		3463A08F24548A68002EB67B /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3463A08E24548A68002EB67B /* TabbarViewController.swift */; };
+		347888D82496387C00EE5411 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 347888D72496387C00EE5411 /* GoogleService-Info.plist */; };
+		34A94160248CEFB400095FD4 /* SearchModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A9415E248CEFB300095FD4 /* SearchModalViewController.swift */; };
+		34A94161248CEFB400095FD4 /* SearchModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A9415F248CEFB400095FD4 /* SearchModalViewController.xib */; };
+		34B106E224540C6200865546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B106E124540C6200865546 /* AppDelegate.swift */; };
+		34B106E424540C6200865546 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B106E324540C6200865546 /* SceneDelegate.swift */; };
+		34B106E924540C6200865546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B106E724540C6200865546 /* Main.storyboard */; };
+		34B106EB24540C6300865546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B106EA24540C6300865546 /* Assets.xcassets */; };
+		34B106EE24540C6300865546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B106EC24540C6300865546 /* LaunchScreen.storyboard */; };
+		34D1110724B99B7E00343A56 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D1110624B99B7E00343A56 /* GoogleMobileAds.framework */; };
+		34D1110A24DE815A00343A56 /* PoemListAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1110824DE815900343A56 /* PoemListAdTableViewCell.swift */; };
+		34D1110B24DE815A00343A56 /* PoemListAdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D1110924DE815900343A56 /* PoemListAdTableViewCell.xib */; };
+		34F47048245D39D9005CA696 /* FetchFirestoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F47047245D39D9005CA696 /* FetchFirestoreModel.swift */; };
+		34FE253B24546C410025CAA1 /* PoemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE253A24546C410025CAA1 /* PoemListViewController.swift */; };
+		34FE253D24546ED10025CAA1 /* PoemFavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE253C24546ED10025CAA1 /* PoemFavViewController.swift */; };
+		34FE253F24546EE80025CAA1 /* PoemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE253E24546EE80025CAA1 /* PoemDetailViewController.swift */; };
+		34FE254724546F810025CAA1 /* PoemListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE254524546F810025CAA1 /* PoemListTableViewCell.swift */; };
+		34FE254824546F810025CAA1 /* PoemListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FE254624546F810025CAA1 /* PoemListTableViewCell.xib */; };
+		83590E27492E1402A4A06DF4 /* Pods_love_poemy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CD006E052B4E9F554C2C87 /* Pods_love_poemy.framework */; };
+		A8C6483A870A155CB53EB824 /* Pods_love_poemyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BF7D61D010448612DB5236 /* Pods_love_poemyTests.framework */; };
+		E69D8E70551B589E2DF94D08 /* Pods_love_poemy_love_poemyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F68BF5BD5F52E9797F3AC1 /* Pods_love_poemy_love_poemyUITests.framework */; };
+		ECCA8C5A5B0CEAECA475A3BF /* Pods_love_poemy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A90A463E90E55B4665EEF57 /* Pods_love_poemy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34B106F524540C6300865546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B106D624540C6200865546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B106DD24540C6200865546;
+			remoteInfo = "love-poemy";
+		};
+		34B1070024540C6300865546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B106D624540C6200865546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B106DD24540C6200865546;
+			remoteInfo = "love-poemy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20CD006E052B4E9F554C2C87 /* Pods_love_poemy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_love_poemy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F68BF5BD5F52E9797F3AC1 /* Pods_love_poemy_love_poemyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_love_poemy_love_poemyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34008257247A404000B4984B /* UIImageView+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
+		340D268924613CF100A878FD /* SearchTagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTagCollectionViewCell.swift; sourceTree = "<group>"; };
+		340D268A24613CF100A878FD /* SearchTagCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTagCollectionViewCell.xib; sourceTree = "<group>"; };
+		341EEE4F24595FF50077714D /* BookmarkManageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManageModel.swift; sourceTree = "<group>"; };
+		341EEE5324599A6C0077714D /* ExAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExAlertViewController.swift; path = ../Controller/ExAlertViewController.swift; sourceTree = "<group>"; };
+		341EEE552459B0570077714D /* DetailImageHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		341EEE562459B0570077714D /* DetailImageHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailImageHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		341EEE592459B1D90077714D /* DetailOriginalTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOriginalTextTableViewCell.swift; sourceTree = "<group>"; };
+		341EEE5A2459B1D90077714D /* DetailOriginalTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailOriginalTextTableViewCell.xib; sourceTree = "<group>"; };
+		341EEE5D2459B2060077714D /* DetailTranslationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTranslationTableViewCell.swift; sourceTree = "<group>"; };
+		341EEE5E2459B2060077714D /* DetailTranslationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTranslationTableViewCell.xib; sourceTree = "<group>"; };
+		341EEE612459B22D0077714D /* DetailRemarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRemarkTableViewCell.swift; sourceTree = "<group>"; };
+		341EEE622459B22D0077714D /* DetailRemarkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailRemarkTableViewCell.xib; sourceTree = "<group>"; };
+		341EEE652459B2E90077714D /* DetailGrammarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGrammarTableViewCell.swift; sourceTree = "<group>"; };
+		341EEE662459B2E90077714D /* DetailGrammarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailGrammarTableViewCell.xib; sourceTree = "<group>"; };
+		3423E40924AA271E007D5F23 /* UIView+DashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+DashView.swift"; sourceTree = "<group>"; };
+		343E5251247D457E002FAD8D /* DetailWordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWordTableViewCell.swift; sourceTree = "<group>"; };
+		343E5252247D457E002FAD8D /* DetailWordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailWordTableViewCell.xib; sourceTree = "<group>"; };
+		3444B9A024A5F014000120CF /* Poemy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Poemy.entitlements; sourceTree = "<group>"; };
+		3463A08E24548A68002EB67B /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		347888D72496387C00EE5411 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "love-poemy/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		34A9415E248CEFB300095FD4 /* SearchModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModalViewController.swift; sourceTree = "<group>"; };
+		34A9415F248CEFB400095FD4 /* SearchModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchModalViewController.xib; sourceTree = "<group>"; };
+		34B106DE24540C6200865546 /* Poemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B106E124540C6200865546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34B106E324540C6200865546 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34B106E824540C6200865546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34B106EA24540C6300865546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34B106ED24540C6300865546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B106EF24540C6300865546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "love-poemy/Info.plist"; sourceTree = SOURCE_ROOT; };
+		34B106F424540C6300865546 /* love-poemyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "love-poemyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B106FF24540C6300865546 /* love-poemyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "love-poemyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D1110624B99B7E00343A56 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		34D1110824DE815900343A56 /* PoemListAdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemListAdTableViewCell.swift; sourceTree = "<group>"; };
+		34D1110924DE815900343A56 /* PoemListAdTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoemListAdTableViewCell.xib; sourceTree = "<group>"; };
+		34F47047245D39D9005CA696 /* FetchFirestoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchFirestoreModel.swift; sourceTree = "<group>"; };
+		34FE253A24546C410025CAA1 /* PoemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemListViewController.swift; sourceTree = "<group>"; };
+		34FE253C24546ED10025CAA1 /* PoemFavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemFavViewController.swift; sourceTree = "<group>"; };
+		34FE253E24546EE80025CAA1 /* PoemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemDetailViewController.swift; sourceTree = "<group>"; };
+		34FE254524546F810025CAA1 /* PoemListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemListTableViewCell.swift; sourceTree = "<group>"; };
+		34FE254624546F810025CAA1 /* PoemListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoemListTableViewCell.xib; sourceTree = "<group>"; };
+		38356DF05B54D9A53B9C5B4D /* Pods-love-poemy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-love-poemy.release.xcconfig"; path = "Target Support Files/Pods-love-poemy/Pods-love-poemy.release.xcconfig"; sourceTree = "<group>"; };
+		52BF7D61D010448612DB5236 /* Pods_love_poemyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_love_poemyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5485E3DED96E0BA22D475B3F /* Pods-love-poemy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-love-poemy.debug.xcconfig"; path = "Target Support Files/Pods-love-poemy/Pods-love-poemy.debug.xcconfig"; sourceTree = "<group>"; };
+		8A90A463E90E55B4665EEF57 /* Pods_love_poemy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_love_poemy.framework; path = "/Users/nonakashiho/Library/Developer/Xcode/DerivedData/love-poemy-fggzwzpvexevcgbncpicaknshhml/Build/Products/Debug-iphoneos/Pods_love_poemy.framework"; sourceTree = "<absolute>"; };
+		9EC54D1CC648CB4920D568CB /* Pods-love-poemy-love-poemyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-love-poemy-love-poemyUITests.debug.xcconfig"; path = "Target Support Files/Pods-love-poemy-love-poemyUITests/Pods-love-poemy-love-poemyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC4C1F63955A4C03F9462B77 /* Pods-love-poemyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-love-poemyTests.release.xcconfig"; path = "Target Support Files/Pods-love-poemyTests/Pods-love-poemyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6B94CEC52ED858B2A3995CA /* Pods-love-poemyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-love-poemyTests.debug.xcconfig"; path = "Target Support Files/Pods-love-poemyTests/Pods-love-poemyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7B0D2034BD1033989A0FA7 /* Pods-love-poemy-love-poemyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-love-poemy-love-poemyUITests.release.xcconfig"; path = "Target Support Files/Pods-love-poemy-love-poemyUITests/Pods-love-poemy-love-poemyUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B106DB24540C6200865546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D1110724B99B7E00343A56 /* GoogleMobileAds.framework in Frameworks */,
+				ECCA8C5A5B0CEAECA475A3BF /* Pods_love_poemy.framework in Frameworks */,
+				83590E27492E1402A4A06DF4 /* Pods_love_poemy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B106F124540C6300865546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C6483A870A155CB53EB824 /* Pods_love_poemyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B106FC24540C6300865546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69D8E70551B589E2DF94D08 /* Pods_love_poemy_love_poemyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C72D1B78ECD42818A28635E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A90A463E90E55B4665EEF57 /* Pods_love_poemy.framework */,
+				34D1110624B99B7E00343A56 /* GoogleMobileAds.framework */,
+				25F68BF5BD5F52E9797F3AC1 /* Pods_love_poemy_love_poemyUITests.framework */,
+				52BF7D61D010448612DB5236 /* Pods_love_poemyTests.framework */,
+				20CD006E052B4E9F554C2C87 /* Pods_love_poemy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3471BBD5245D068E005B563F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				341EEE5324599A6C0077714D /* ExAlertViewController.swift */,
+				34008257247A404000B4984B /* UIImageView+Cache.swift */,
+				3423E40924AA271E007D5F23 /* UIView+DashView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		349F066824836F2600584AEE /* ListPoem */ = {
+			isa = PBXGroup;
+			children = (
+				34FE254524546F810025CAA1 /* PoemListTableViewCell.swift */,
+				34FE254624546F810025CAA1 /* PoemListTableViewCell.xib */,
+				34D1110824DE815900343A56 /* PoemListAdTableViewCell.swift */,
+				34D1110924DE815900343A56 /* PoemListAdTableViewCell.xib */,
+			);
+			path = ListPoem;
+			sourceTree = "<group>";
+		};
+		349F066924836F3A00584AEE /* SearchCollectionTag */ = {
+			isa = PBXGroup;
+			children = (
+				340D268924613CF100A878FD /* SearchTagCollectionViewCell.swift */,
+				340D268A24613CF100A878FD /* SearchTagCollectionViewCell.xib */,
+				34A9415E248CEFB300095FD4 /* SearchModalViewController.swift */,
+				34A9415F248CEFB400095FD4 /* SearchModalViewController.xib */,
+			);
+			path = SearchCollectionTag;
+			sourceTree = "<group>";
+		};
+		349F066A24836F9D00584AEE /* DetailPoem */ = {
+			isa = PBXGroup;
+			children = (
+				341EEE552459B0570077714D /* DetailImageHeaderTableViewCell.swift */,
+				341EEE562459B0570077714D /* DetailImageHeaderTableViewCell.xib */,
+				341EEE592459B1D90077714D /* DetailOriginalTextTableViewCell.swift */,
+				341EEE5A2459B1D90077714D /* DetailOriginalTextTableViewCell.xib */,
+				341EEE5D2459B2060077714D /* DetailTranslationTableViewCell.swift */,
+				341EEE5E2459B2060077714D /* DetailTranslationTableViewCell.xib */,
+				341EEE612459B22D0077714D /* DetailRemarkTableViewCell.swift */,
+				341EEE622459B22D0077714D /* DetailRemarkTableViewCell.xib */,
+				341EEE652459B2E90077714D /* DetailGrammarTableViewCell.swift */,
+				341EEE662459B2E90077714D /* DetailGrammarTableViewCell.xib */,
+				343E5251247D457E002FAD8D /* DetailWordTableViewCell.swift */,
+				343E5252247D457E002FAD8D /* DetailWordTableViewCell.xib */,
+			);
+			path = DetailPoem;
+			sourceTree = "<group>";
+		};
+		34B106D524540C6200865546 = {
+			isa = PBXGroup;
+			children = (
+				34B106E024540C6200865546 /* love-poemy */,
+				34B106DF24540C6200865546 /* Products */,
+				D56222FA65DC033D283DCEA6 /* Pods */,
+				2C72D1B78ECD42818A28635E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34B106DF24540C6200865546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B106DE24540C6200865546 /* Poemy.app */,
+				34B106F424540C6300865546 /* love-poemyTests.xctest */,
+				34B106FF24540C6300865546 /* love-poemyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B106E024540C6200865546 /* love-poemy */ = {
+			isa = PBXGroup;
+			children = (
+				3444B9A024A5F014000120CF /* Poemy.entitlements */,
+				34B106E124540C6200865546 /* AppDelegate.swift */,
+				34B106E324540C6200865546 /* SceneDelegate.swift */,
+				34B106EC24540C6300865546 /* LaunchScreen.storyboard */,
+				34B106E724540C6200865546 /* Main.storyboard */,
+				3471BBD5245D068E005B563F /* Extension */,
+				34FE254224546F270025CAA1 /* Model */,
+				34FE254124546F1A0025CAA1 /* View */,
+				34FE254024546F000025CAA1 /* Controller */,
+				34B106EA24540C6300865546 /* Assets.xcassets */,
+				347888D72496387C00EE5411 /* GoogleService-Info.plist */,
+				34B106EF24540C6300865546 /* Info.plist */,
+			);
+			path = "love-poemy";
+			sourceTree = "<group>";
+		};
+		34FE254024546F000025CAA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3463A08E24548A68002EB67B /* TabbarViewController.swift */,
+				34FE253A24546C410025CAA1 /* PoemListViewController.swift */,
+				34FE253C24546ED10025CAA1 /* PoemFavViewController.swift */,
+				34FE253E24546EE80025CAA1 /* PoemDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34FE254124546F1A0025CAA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				349F066824836F2600584AEE /* ListPoem */,
+				349F066924836F3A00584AEE /* SearchCollectionTag */,
+				349F066A24836F9D00584AEE /* DetailPoem */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34FE254224546F270025CAA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34F47047245D39D9005CA696 /* FetchFirestoreModel.swift */,
+				341EEE4F24595FF50077714D /* BookmarkManageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D56222FA65DC033D283DCEA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5485E3DED96E0BA22D475B3F /* Pods-love-poemy.debug.xcconfig */,
+				38356DF05B54D9A53B9C5B4D /* Pods-love-poemy.release.xcconfig */,
+				9EC54D1CC648CB4920D568CB /* Pods-love-poemy-love-poemyUITests.debug.xcconfig */,
+				FD7B0D2034BD1033989A0FA7 /* Pods-love-poemy-love-poemyUITests.release.xcconfig */,
+				E6B94CEC52ED858B2A3995CA /* Pods-love-poemyTests.debug.xcconfig */,
+				BC4C1F63955A4C03F9462B77 /* Pods-love-poemyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B106DD24540C6200865546 /* love-poemy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B1070824540C6300865546 /* Build configuration list for PBXNativeTarget "love-poemy" */;
+			buildPhases = (
+				CA760BA9BD2A5CDF6F007424 /* [CP] Check Pods Manifest.lock */,
+				34B106DA24540C6200865546 /* Sources */,
+				34B106DB24540C6200865546 /* Frameworks */,
+				34B106DC24540C6200865546 /* Resources */,
+				1B8976101D7DA80C392CDE05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "love-poemy";
+			productName = "love-poemy";
+			productReference = 34B106DE24540C6200865546 /* Poemy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B106F324540C6300865546 /* love-poemyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B1070B24540C6300865546 /* Build configuration list for PBXNativeTarget "love-poemyTests" */;
+			buildPhases = (
+				56E9D9D640A00ABDE0A0CF2F /* [CP] Check Pods Manifest.lock */,
+				34B106F024540C6300865546 /* Sources */,
+				34B106F124540C6300865546 /* Frameworks */,
+				34B106F224540C6300865546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B106F624540C6300865546 /* PBXTargetDependency */,
+			);
+			name = "love-poemyTests";
+			productName = "love-poemyTests";
+			productReference = 34B106F424540C6300865546 /* love-poemyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34B106FE24540C6300865546 /* love-poemyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B1070E24540C6300865546 /* Build configuration list for PBXNativeTarget "love-poemyUITests" */;
+			buildPhases = (
+				95447519ACE6580327F495CB /* [CP] Check Pods Manifest.lock */,
+				34B106FB24540C6300865546 /* Sources */,
+				34B106FC24540C6300865546 /* Frameworks */,
+				34B106FD24540C6300865546 /* Resources */,
+				F8E0D134EAE45CD9A1C406DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B1070124540C6300865546 /* PBXTargetDependency */,
+			);
+			name = "love-poemyUITests";
+			productName = "love-poemyUITests";
+			productReference = 34B106FF24540C6300865546 /* love-poemyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B106D624540C6200865546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "野中志保";
+				TargetAttributes = {
+					34B106DD24540C6200865546 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					34B106F324540C6300865546 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 34B106DD24540C6200865546;
+					};
+					34B106FE24540C6300865546 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 34B106DD24540C6200865546;
+					};
+				};
+			};
+			buildConfigurationList = 34B106D924540C6200865546 /* Build configuration list for PBXProject "love-poemy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B106D524540C6200865546;
+			productRefGroup = 34B106DF24540C6200865546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B106DD24540C6200865546 /* love-poemy */,
+				34B106F324540C6300865546 /* love-poemyTests */,
+				34B106FE24540C6300865546 /* love-poemyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B106DC24540C6200865546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341EEE602459B2060077714D /* DetailTranslationTableViewCell.xib in Resources */,
+				34B106EE24540C6300865546 /* LaunchScreen.storyboard in Resources */,
+				34FE254824546F810025CAA1 /* PoemListTableViewCell.xib in Resources */,
+				341EEE642459B22D0077714D /* DetailRemarkTableViewCell.xib in Resources */,
+				341EEE582459B0570077714D /* DetailImageHeaderTableViewCell.xib in Resources */,
+				343E5254247D457E002FAD8D /* DetailWordTableViewCell.xib in Resources */,
+				34B106EB24540C6300865546 /* Assets.xcassets in Resources */,
+				341EEE682459B2E90077714D /* DetailGrammarTableViewCell.xib in Resources */,
+				34B106E924540C6200865546 /* Main.storyboard in Resources */,
+				340D268C24613CF100A878FD /* SearchTagCollectionViewCell.xib in Resources */,
+				34A94161248CEFB400095FD4 /* SearchModalViewController.xib in Resources */,
+				341EEE5C2459B1D90077714D /* DetailOriginalTextTableViewCell.xib in Resources */,
+				347888D82496387C00EE5411 /* GoogleService-Info.plist in Resources */,
+				34D1110B24DE815A00343A56 /* PoemListAdTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B106F224540C6300865546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B106FD24540C6300865546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8976101D7DA80C392CDE05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-love-poemy/Pods-love-poemy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-love-poemy/Pods-love-poemy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-love-poemy/Pods-love-poemy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56E9D9D640A00ABDE0A0CF2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-love-poemyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95447519ACE6580327F495CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-love-poemy-love-poemyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA760BA9BD2A5CDF6F007424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-love-poemy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E0D134EAE45CD9A1C406DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-love-poemy-love-poemyUITests/Pods-love-poemy-love-poemyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-love-poemy-love-poemyUITests/Pods-love-poemy-love-poemyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-love-poemy-love-poemyUITests/Pods-love-poemy-love-poemyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B106DA24540C6200865546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B106E224540C6200865546 /* AppDelegate.swift in Sources */,
+				343E5253247D457E002FAD8D /* DetailWordTableViewCell.swift in Sources */,
+				341EEE672459B2E90077714D /* DetailGrammarTableViewCell.swift in Sources */,
+				34B106E424540C6200865546 /* SceneDelegate.swift in Sources */,
+				341EEE5024595FF50077714D /* BookmarkManageModel.swift in Sources */,
+				341EEE5424599A6C0077714D /* ExAlertViewController.swift in Sources */,
+				3423E40B24AA271E007D5F23 /* UIView+DashView.swift in Sources */,
+				34FE253D24546ED10025CAA1 /* PoemFavViewController.swift in Sources */,
+				34008258247A404000B4984B /* UIImageView+Cache.swift in Sources */,
+				340D268B24613CF100A878FD /* SearchTagCollectionViewCell.swift in Sources */,
+				341EEE572459B0570077714D /* DetailImageHeaderTableViewCell.swift in Sources */,
+				34FE253F24546EE80025CAA1 /* PoemDetailViewController.swift in Sources */,
+				34F47048245D39D9005CA696 /* FetchFirestoreModel.swift in Sources */,
+				341EEE5B2459B1D90077714D /* DetailOriginalTextTableViewCell.swift in Sources */,
+				34D1110A24DE815A00343A56 /* PoemListAdTableViewCell.swift in Sources */,
+				341EEE5F2459B2060077714D /* DetailTranslationTableViewCell.swift in Sources */,
+				34FE253B24546C410025CAA1 /* PoemListViewController.swift in Sources */,
+				34FE254724546F810025CAA1 /* PoemListTableViewCell.swift in Sources */,
+				34A94160248CEFB400095FD4 /* SearchModalViewController.swift in Sources */,
+				3463A08F24548A68002EB67B /* TabbarViewController.swift in Sources */,
+				341EEE632459B22D0077714D /* DetailRemarkTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B106F024540C6300865546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B106FB24540C6300865546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B106F624540C6300865546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B106DD24540C6200865546 /* love-poemy */;
+			targetProxy = 34B106F524540C6300865546 /* PBXContainerItemProxy */;
+		};
+		34B1070124540C6300865546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B106DD24540C6200865546 /* love-poemy */;
+			targetProxy = 34B1070024540C6300865546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34B106E724540C6200865546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B106E824540C6200865546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34B106EC24540C6300865546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B106ED24540C6300865546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B1070624540C6300865546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34B1070724540C6300865546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B1070924540C6300865546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5485E3DED96E0BA22D475B3F /* Pods-love-poemy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = "love-poemy/Poemy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3.0;
+				DEVELOPMENT_TEAM = 5YR2PS8BM3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "love-poemy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.education.love-poemy";
+				PRODUCT_NAME = Poemy;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		34B1070A24540C6300865546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38356DF05B54D9A53B9C5B4D /* Pods-love-poemy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = "love-poemy/Poemy.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3.0;
+				DEVELOPMENT_TEAM = 5YR2PS8BM3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "love-poemy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.education.love-poemy";
+				PRODUCT_NAME = Poemy;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		34B1070C24540C6300865546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B94CEC52ED858B2A3995CA /* Pods-love-poemyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YR2PS8BM3;
+				INFOPLIST_FILE = "love-poemyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "education.love-poemyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/love-poemy.app/love-poemy";
+			};
+			name = Debug;
+		};
+		34B1070D24540C6300865546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4C1F63955A4C03F9462B77 /* Pods-love-poemyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YR2PS8BM3;
+				INFOPLIST_FILE = "love-poemyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "education.love-poemyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/love-poemy.app/love-poemy";
+			};
+			name = Release;
+		};
+		34B1070F24540C6300865546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC54D1CC648CB4920D568CB /* Pods-love-poemy-love-poemyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YR2PS8BM3;
+				INFOPLIST_FILE = "love-poemyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "education.love-poemyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "love-poemy";
+			};
+			name = Debug;
+		};
+		34B1071024540C6300865546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7B0D2034BD1033989A0FA7 /* Pods-love-poemy-love-poemyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YR2PS8BM3;
+				INFOPLIST_FILE = "love-poemyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "education.love-poemyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "love-poemy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B106D924540C6200865546 /* Build configuration list for PBXProject "love-poemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B1070624540C6300865546 /* Debug */,
+				34B1070724540C6300865546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B1070824540C6300865546 /* Build configuration list for PBXNativeTarget "love-poemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B1070924540C6300865546 /* Debug */,
+				34B1070A24540C6300865546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B1070B24540C6300865546 /* Build configuration list for PBXNativeTarget "love-poemyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B1070C24540C6300865546 /* Debug */,
+				34B1070D24540C6300865546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B1070E24540C6300865546 /* Build configuration list for PBXNativeTarget "love-poemyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B1070F24540C6300865546 /* Debug */,
+				34B1071024540C6300865546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34B106D624540C6200865546 /* Project object */;
+}

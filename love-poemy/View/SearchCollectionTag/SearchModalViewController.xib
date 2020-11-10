@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchModalViewController" customModule="Poemy" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="e3R-rj-mEm" id="nLF-TC-3k2"/>
+                <outlet property="collectionViewFlow" destination="Cac-uH-Ed2" id="S4h-vd-3Ix"/>
+                <outlet property="explanation" destination="N1i-Zh-jDk" id="qRQ-DS-63z"/>
+                <outlet property="introSummary" destination="7Uw-qr-3hN" id="UV7-D8-QRC"/>
+                <outlet property="introSummaryButton" destination="UNf-rd-q2m" id="Jm2-YH-ACv"/>
+                <outlet property="titleLabel" destination="KZy-QQ-ppa" id="aAe-We-3KQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webURLButton" destination="Q8w-e4-Mjn" id="Dkz-3S-pHa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鑑賞したい巻を選択" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZy-QQ-ppa">
+                    <rect key="frame" x="30" y="64" width="354" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="CustomBlack"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="e3R-rj-mEm">
+                    <rect key="frame" x="30" y="105" width="354" height="200"/>
+                    <color key="backgroundColor" name="CustomWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="CMR-d5-3dT"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Cac-uH-Ed2">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8w-e4-Mjn">
+                    <rect key="frame" x="30" y="409" width="354" height="30"/>
+                    <state key="normal" title="古今和歌集の部屋"/>
+                    <connections>
+                        <action selector="webURLButton:" destination="-1" eventType="touchUpInside" id="TTZ-Ky-vCo"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　和歌の意味と鑑賞は下のサイトからお借りしています。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1i-Zh-jDk">
+                    <rect key="frame" x="30" y="335" width="354" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="lyQ-Ta-MzG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="CustomBlack"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　こちらの姉妹サイトもよろしくです。現代文の教科書で学ぶ単元を短くわかりやすく要約してます。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Uw-qr-3hN">
+                    <rect key="frame" x="30" y="469" width="354" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="CustomBlack"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNf-rd-q2m">
+                    <rect key="frame" x="30" y="540" width="354" height="30"/>
+                    <state key="normal" title="Summary~現代文要約サイト〜"/>
+                    <connections>
+                        <action selector="introSummaryButton:" destination="-1" eventType="touchUpInside" id="YHe-Uf-usa"/>
+                        <action selector="webURLButton:" destination="-1" eventType="touchUpInside" id="rs1-oG-tFL"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" name="CustomWhite"/>
+            <constraints>
+                <constraint firstItem="N1i-Zh-jDk" firstAttribute="top" secondItem="e3R-rj-mEm" secondAttribute="bottom" constant="30" id="1jA-xq-B29"/>
+                <constraint firstItem="KZy-QQ-ppa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="8tV-p4-l17"/>
+                <constraint firstItem="7Uw-qr-3hN" firstAttribute="trailing" secondItem="KZy-QQ-ppa" secondAttribute="trailing" id="BZj-RI-EJn"/>
+                <constraint firstItem="UNf-rd-q2m" firstAttribute="top" secondItem="7Uw-qr-3hN" secondAttribute="bottom" constant="10" id="GvI-6y-G8k"/>
+                <constraint firstItem="N1i-Zh-jDk" firstAttribute="leading" secondItem="KZy-QQ-ppa" secondAttribute="leading" id="HKC-cg-eOX"/>
+                <constraint firstItem="Q8w-e4-Mjn" firstAttribute="leading" secondItem="KZy-QQ-ppa" secondAttribute="leading" id="QDx-c9-hjx"/>
+                <constraint firstItem="N1i-Zh-jDk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SWM-fZ-cBs"/>
+                <constraint firstItem="e3R-rj-mEm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Siz-ow-6NL"/>
+                <constraint firstItem="e3R-rj-mEm" firstAttribute="top" secondItem="KZy-QQ-ppa" secondAttribute="bottom" constant="20" id="TB0-jM-mIy"/>
+                <constraint firstItem="UNf-rd-q2m" firstAttribute="trailing" secondItem="KZy-QQ-ppa" secondAttribute="trailing" id="WGB-QL-ZcB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KZy-QQ-ppa" secondAttribute="trailing" constant="30" id="YES-Q7-odg"/>
+                <constraint firstItem="Q8w-e4-Mjn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YRV-5B-zb4"/>
+                <constraint firstItem="UNf-rd-q2m" firstAttribute="leading" secondItem="KZy-QQ-ppa" secondAttribute="leading" id="gfi-Au-1Az"/>
+                <constraint firstItem="Q8w-e4-Mjn" firstAttribute="top" secondItem="N1i-Zh-jDk" secondAttribute="bottom" constant="10" id="iel-zN-GAO"/>
+                <constraint firstItem="e3R-rj-mEm" firstAttribute="leading" secondItem="KZy-QQ-ppa" secondAttribute="leading" id="mEp-ek-UDD"/>
+                <constraint firstItem="KZy-QQ-ppa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="pVv-oq-ymS"/>
+                <constraint firstItem="7Uw-qr-3hN" firstAttribute="leading" secondItem="KZy-QQ-ppa" secondAttribute="leading" id="ux7-Bn-tH1"/>
+                <constraint firstItem="7Uw-qr-3hN" firstAttribute="top" secondItem="Q8w-e4-Mjn" secondAttribute="bottom" constant="30" id="z04-uY-Pbe"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="155.07246376811597" y="130.58035714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="CustomBlack">
+            <color red="0.024000000208616257" green="0.15299999713897705" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CustomWhite">
+            <color red="0.97600001096725464" green="0.97600001096725464" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
